@@ -1,0 +1,46 @@
+RIP (Routing Information protocol)
+> uses hop count
+(a hop is the # of routers you pass through from start to finish)
+> max of 15 hops that can be counted
+
+EIGRP (Enhanced Interior Gateway Routing Protocol)
+> Uses bandwidth/latency to find the quickest path by generating a path weight and finding the path with the least weight
+> Cisco Only
+
+OSPF (Open shortest path first)
+> > Uses bandwidth/latency to find the quickest path by generating a path weight and finding the path with the least weight
+> Uses Dijkstra's algorithm
+
+
+****
+1 bus - 50 min
+2 bus - 30 min
+If you prefer the bus metaphor, RIP will always choose the option with fewest number of busses (hops). OSPF and EIGRP will look at the "weight" of those paths - 30 min vs 50 mins - in order to find the quickest path.
+
+The main difference between OSPF and EIGRP is that EIGRP is cisco routers only
+
+----------------------------------------------------------------------------------
+
+Collision Domains
+> to count collision domains you count every connection out of a router, switch or bridge
+> always at least 1 collision domain
+> you want to have more collision domains (then you have smaller areas to watch, fewer people to watch when you send a message)
+
+----------------------------------------------------------------------------------
+
+Broadcast domains
+> to count, you count every connection out of a router
+> always at least 1 broadcast domain
+> broadcast domains represent who will see a broadcast ]
+
+Pr
+
+----------------------------------------------------------------------------------
+
+presentation - encrpty the data
+
+session layer - keeps the data separate for different applications
+
+----------------------------------------------------------------------------------
+
+

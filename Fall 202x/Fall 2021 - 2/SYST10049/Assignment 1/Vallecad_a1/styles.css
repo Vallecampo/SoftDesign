@@ -1,0 +1,78 @@
+body {
+	font-size: 2em;
+	font-family: Arial;
+	}
+
+header {
+	background-color: RoyalBlue;
+	border-bottom: 2px solid black;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	}
+
+h1 {
+    font-size: 2.5x;
+	color: white;
+	}
+	
+h2 {
+    font-size: 2.0x;
+	color: white;
+	}
+	
+h3 {
+    font-size: 1.7x;
+	border-left: 5px solid blue;
+	}
+	
+h4 {
+    font-size: 1.7x;
+	border-left: 5px solid blue;
+	}
+	
+a:visited {
+	color: DarkRed;
+	}
+
+a:hover {
+	color: hotpink;
+	}
+	
+nav {
+	background-color: PeachPuff;
+	border-bottom: 2px solid black;
+	padding: 5px;
+	}
+
+aside {
+	background-color: PeachPuff;
+	border: 3px solid blue;
+	padding: 25px;
+	margin: 25px;
+	box-shadow: 10px 15px DarkRed;
+	}
+
+code{
+	text-align: left;
+	}
+	
+figure{
+	border: 3px solid blue;
+	}
+	
+figcaption{
+	background-color: RoyalBlue;
+	color: white;
+	}
+
+footer {
+	background-color: RoyalBlue;
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Page Title</title>
+      <style>
+          #clickable{
+              color:blue;
+              cursor:pointer;
+          }
+          #clickable:hover{
+              color: red;
+          }
+      </style>
+    </head>
+  <body>
+    <script>
+      function hello(){
+        document.getElementById("hello").innerHTML="hello";
+        document.getElementById("hello").style.backgroundColor="aqua";
+      }
+      function removeHello(){
+        document.getElementById("hello").innerHTML="";
+        document.getElementById("hello").style.backgroundColor="white";
+      }
+      function changeFontSIze(){
+        document.getElementById("clickable").style.fontSize="10px";
+      }
+      function addNumber(){
+        var a= prompt("enter 1st number");
+        1= parseInt(a);
+        var b =prompt("enter 2nd number");
+        b=parseInt(b);
+        document.getElementById("result").innerHTML= a+b;
+      }
+
+    </script>
+    <h1 id="heading1">
+        <span id="clickable" onclick="changeFontSIze()"> Click Here </span> To change font size
+    </h1>  
+    <p id="hello"> </p>
+    <p id="result"></p>
+    <button id="btn1" onclick = "hello()">Hello</button>
+    <button id="btn2" onclick = "removeHello()">Remove Hello</button>
+    <button id="btn3" onlick ="addNumber()"> Add numbers </button>
+  </body>
+</html>

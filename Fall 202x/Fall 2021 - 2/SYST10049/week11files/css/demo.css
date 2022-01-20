@@ -1,0 +1,45 @@
+/* demo.css */
+
+/* current list of device breakpoints e.g. for min-width:
+phones: 574px
+tablets: min width 768px
+notebooks, small desktop screens: 992px
+medium desktop screens: 1200px
+large desktop screens: 1400px
+https://torquemag.io/2021/08/media-queries-guide/
+*/
+
+header, footer, main {
+	margin: 7px;
+	padding: 5px;
+}
+
+header, footer, nav {
+	background-color: #e6e6ff;
+	border: 2px solid #66f;
+	border-radius: 4px;
+	box-shadow: 4px 4px 2px #999;
+}
+
+nav {
+	margin: 7px;
+	padding: 10px 5px;
+}
+nav a {
+	margin: 5px 15px;
+	padding: 10px;
+}
+nav a:hover {
+	background: #66f;
+	color: white;
+}
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	
+}
+

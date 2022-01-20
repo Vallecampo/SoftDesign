@@ -1,0 +1,64 @@
+/*
+ Name:  David Vallecmapo
+ Assignment:  VallecmapoAssignment3
+ Description: this CSS is used for the Bingo page
+*/
+.bingo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.bingo-info {
+  border: 1px dashed #6c244c;
+  margin: 25px;
+  padding: 5px;
+}
+.bingo-info > div {
+  border: 2px solid #6c244c;
+}
+button {
+    /* feel free to adjust colours, borders, etc */
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 50px;
+  width: 100%;
+}
+
+/* number display inside bingo-info panel */
+.nums {
+  padding: 8px;
+}
+.nums p {
+  font-family: monospace;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+#free {
+	background-color: #00758f;
+	color: white;
+	font-size: 0.5em;
+}
+
+table {
+	border: 3px solid #00758f;
+	border-collapse: collapse;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 50px;
+}
+
+td, tr{
+	border: 1px solid #00758f;
+	padding: 15px;
+}
+
+th{
+  background-color: #ADD8E6;
+  border: 2px solid #00758f;
+  padding: 15px;
+}

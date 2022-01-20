@@ -1,0 +1,48 @@
+
+    Copy and paste the HTML below into the main index page between the header and footer elements.
+    DO NOT modify any of this code.
+
+    <!-- The container for all the "game boxes" that contain links/images
+          to the games -->
+    <main>        
+        <!-- bingo box -->
+        <div>
+            <a href="bingo.html">
+                <figure>
+                    <img src="images/bingo.png" alt="bingo game">
+                    <figcaption>Play Bingo</figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <!-- tictactoe box -->
+        <div>
+            <a href="tictactoe.html">
+                <figure>
+                    <img src="images/tictactoe.png" alt="tic tac toe board">
+                    <figcaption>Play Tic Tac Toe</figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <!-- pick a pair box -->
+        <div>
+            <a href="#">
+                <figure>
+                    <img src="images/pickapair.png" alt="pick a pair cards">
+                    <figcaption>Play Pick-A-Pair</figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <!-- rock paper scissors box -->
+        <div>
+            <a href="#">
+                <figure>
+                    <img src="images/rps.png" alt="rock paper scissors game">
+                    <figcaption>Play Rock, Paper, Scissors</figcaption>
+                </figure>
+            </a>
+        </div>
+
+    </main> <!-- end of games container -->

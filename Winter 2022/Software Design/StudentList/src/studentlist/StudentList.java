@@ -30,6 +30,7 @@ public class StudentList {
         for (int i = 0; i < studList.length;i++) {
             System.out.println("student name is: "+studList[i].getName());
         }
+        //GIthub changes
     }
 
 }

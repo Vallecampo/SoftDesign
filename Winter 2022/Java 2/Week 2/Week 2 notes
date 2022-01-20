@@ -1,0 +1,17 @@
+Objects are an instance of a class
+
+Methods are generally instances unless they are defined as static (such as Math.random())
+
+Static variables are available by all instances of the class
+
+to use static variable in need to be invokled by a static method
+
+You can separate it into 3 zones Class scope, public scope, package scope
+
+it is mandatory to make all datafields private. Otherwise, abstraction and encapsulation is not observed.
+
+For a class to be immutable, it must mark all data fields private 
+and provide no mutator methods and no accessor methods that 
+would return a reference to a mutable data field object.
+
+

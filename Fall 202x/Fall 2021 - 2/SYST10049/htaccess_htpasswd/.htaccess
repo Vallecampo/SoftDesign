@@ -1,0 +1,4 @@
+AuthUserFile /home2/vallecad/public_html/syst10049/assignments/.htpasswd
+AuthType Basic
+AuthName "vallecad Assignments"
+Require valid-user

@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        String opener = "Guess a number between 1 and 100: ";
+        String closer = "Thanks for playing!";
+        String lowMessage = "too low!";
+        String highMessage = "too high!";
+        String winGame = "correct!";
+        String quitMessage = "Quitter! Your number was ";
+        String restartPrompt = "Would you like to try again?(Y/N): ";
+
+        char newGame;
+        int userGuess, randomNum;
+
+        do {
+            randomNum = (int)(Math.random() * 100) + 1;
+            userGuess = 0;
+
+            while (userGuess != randomNum){
+                System.out.print(opener);
+                userGuess = input.nextInt();
+                if (userGuess < 0) {
+                    System.out.println(quitMessage + randomNum);
+                    break;
+                } else if (userGuess == randomNum) {
+                    System.out.println(winGame);
+                    break;
+                }
+                String output = (userGuess > randomNum) ? highMessage :
+                        lowMessage;
+                System.out.println(output);
+                }
+
+            System.out.print(restartPrompt);
+            newGame = input.next().charAt(0);
+            System.out.println(closer);
+
+        } while (newGame == 'y' || newGame == 'Y');
+    }
+}

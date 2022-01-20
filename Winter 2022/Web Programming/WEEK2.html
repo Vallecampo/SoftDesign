@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+    </head>
+    <body>
+        <h1 id="message" class="heading"> Hello World </h1>
+        <img src="images/smiley.jpg" alt=" smile image">
+        <p id="p1">The result is here</p>
+        <script>
+            document.getElementById("message").innerHTML="Hello Wednesday";
+            document.getElementById("message").style.backgroundColor="lightblue";
+            var age= 40;
+            if(age<18){
+                document.getElementById("p1").innerHTML="<h1>You are a minor</h1>";
+                document.getElementById("p1").style.backgroundColor="red";
+            }
+            else{
+                document.getElementById("p1").innerHTML="<h1>You are an adult</h1>";
+                document.getElementById("p1").style.backgroundColor="yellow";
+            }
+
+            var count=0;
+            document.write("<h1> DO WHILE starting loop</h1>");
+            do{
+            document.write("current count " +count +"<br>");
+            count++;
+            }while(count<0);
+            document.write("<h1>DO WHILE Ending the loop</h1>");
+
+            document.write("<h1> WHILE starting loop</h1>");
+            while(count<5){
+            document.write("current count " +count +"<br>");
+            count++;
+            }
+            document.write("<h1> WHILE Ending the loop</h1>");
+
+        </script>
+    </body>
+</html>
